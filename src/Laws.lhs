@@ -1,9 +1,3 @@
----
-title: Testing Typeclass Laws with QuickCheck
-tags: Haskell, Testing
----
-
-
 Recently, I was somewhat idly thinking about how to verify that Haskell typeclasses satisfy the appropriate laws.  My first thought was to use equational reasoning to prove that the laws hold.  For example, to verify that the left identity law holds for the `Maybe` monad, we can show that
 
 ```haskell
